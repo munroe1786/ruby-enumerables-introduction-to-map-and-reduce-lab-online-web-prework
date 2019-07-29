@@ -48,7 +48,15 @@ def reduce_to_total(source_array)
   total
 end
 
-
+def reduce_to_total(source_array)
+  total = 100
+  i = 0
+  while i < source_array.length
+    total += source_array[i]
+    i += 1
+  end
+  total
+end
 
 
 def reduce_to_all_true(source_array)
